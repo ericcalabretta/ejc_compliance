@@ -6,7 +6,7 @@
 
 # Include CIS_l1 hardeing - only for EL
 
-case node['platform_family']
-when 'rhel'
+case node['platform']
+when 'centos'
   include_recipe 'cis-el7-l1-hardening::default'
 end
