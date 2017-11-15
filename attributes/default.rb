@@ -13,7 +13,7 @@ default['audit']['profiles'] =
         compliance: 'admin/cis-centos7-level1',
       },
     ]
-  when 'debian'
+  when 'ubuntu'
     default['audit']['profiles'] = [
       {
         name: 'DevSec Linux Security Baseline',
