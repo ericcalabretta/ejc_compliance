@@ -5,7 +5,7 @@ Centos 7
 
 Ubuntu 16.04
 
-Windows 2016
+Windows Server 2016
 
 ## Instructions:
 #### 1.Login to Chef Automate and download any needed profiles - using the 'admin' account
