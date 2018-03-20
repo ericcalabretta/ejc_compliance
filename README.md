@@ -23,7 +23,7 @@ You'll need to configure Chef-Server to send data to Chef Automate and increase 
 Sample: /etc/opscode/chef-server.rb
 
 ```bash
-opscode_erchef['max_request_size'] = '10000000'
+opscode_erchef['max_request_size'] = '1500000'
 nginx['client_max_body_size'] = '2500m'
 data_collector['root_url'] = 'https://FQDNofChefAutomate/data-collector/v0/'
 profiles['root_url'] = 'https://FQDNofChefAutomate'
